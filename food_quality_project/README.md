@@ -1,64 +1,107 @@
-# 🍽️ Food Product Quality Tracking System
+# 🍽️ Food Product Quality Tracking System (Streamlit)
 
-A data-driven system designed to monitor and manage food product quality across batches using SQL and Python. This project simulates real-world quality control processes used in manufacturing and supply chain industries.
+An interactive web-based system to monitor and analyze food product quality across batches. Built using **Python, SQL concepts, and Streamlit**, this project simulates real-world quality control processes used in manufacturing and supply chain systems.
 
 ---
 
+## 🚀 Live Demo
+
+👉 https://foodquality.streamlit.app/
+
+
 ## 📌 Project Overview
 
-Ensuring product quality is critical in the food industry. This project provides a structured approach to:
+Maintaining product quality is critical in the food industry. This system allows users to:
 
-- Track product batches
-- Record quality inspection results
-- Identify defective products
-- Analyze trends in quality issues
+* Track product batches
+* Monitor quality status
+* Identify defective products
+* Analyze defect patterns
 
-The system demonstrates how databases and analytics can be used to improve quality management and decision-making.
+The project demonstrates how data systems are used for **quality assurance and decision-making**.
 
 ---
 
 ## ⚙️ Tech Stack
 
-- **Python** – Data processing & analysis  
-- **SQL** – Database design & querying  
-- **Pandas** – Data manipulation  
-- **SQLite / MySQL** – (based on your implementation)
+* **Python** – Core logic
+* **Streamlit** – Web app interface
+* **Pandas** – Data handling
+* **SQL Concepts** – Structured data modeling
 
 ---
 
-## 🗂️ Database Design
+## ✨ Features
 
-The system includes key tables such as:
-
-- **Products** – Stores product details  
-- - **Batches** – Tracks production batches  
-- **Quality_Checks** – Records inspection results  
-- **Defects** – Logs defects and issues  
-
----
-
-## 🚀 Features
-
-- 📦 Batch-level tracking of food products  
-- 🔍 Quality inspection logging system  
-- ⚠️ Defect identification and categorization  
-- 📊 Data analysis for quality trends  
-- 🧠 Insights into real-world quality management systems  
+* 📊 View batch-wise product quality data
+* ⚠️ Identify defective products easily
+* 📈 Visualize defects using charts
+* 🧾 Simple and interactive UI
+* 🌐 Fully deployed web application
 
 ---
 
-## 📊 Sample Use Cases
+## 📊 Sample Insights
 
-- Identify batches with the highest defect rates  
-- Track recurring quality issues  
-- Analyze product performance over time  
-- Support decision-making in supply chain systems  
+* Detect batches with highest defects
+* Track product quality trends
+* Identify frequently defective products
 
 ---
 
-## 🛠️ How to Run
+## 🛠️ How to Run Locally
 
 1. Clone the repository:
-```bash
-git clone <your-repo-link>
-cd <repo-name>
+
+```id="h7d92s"
+git clone https://github.com/vaishu-2716/Smart-Inventory-Demand-Predictor.git
+cd food_quality_project
+```
+
+2. Install dependencies:
+
+```id="9m1d3a"
+pip install -r requirements.txt
+```
+
+3. Run the app:
+
+```id="3k9s0f"
+streamlit run app.py
+```
+
+---
+
+## 📂 Project Structure
+
+```id="2j8d9l"
+food_quality_project/
+│
+├── app.py
+├── quality.py
+├── README.md
+```
+
+---
+
+## 📈 Future Improvements
+
+* Integrate real database (MySQL/PostgreSQL)
+* Add real-time quality monitoring
+* Build advanced analytics dashboard
+* Implement alert system for defective batches
+
+---
+
+## 🎯 Key Learnings
+
+* Designing data systems for quality tracking
+* Applying SQL concepts in real-world scenarios
+* Building interactive dashboards with Streamlit
+* Deploying applications to the web
+
+---
+
+## 📬 Contact
+
+Feel free to connect for collaboration or feedback!
